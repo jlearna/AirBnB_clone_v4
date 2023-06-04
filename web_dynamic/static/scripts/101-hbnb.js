@@ -41,7 +41,7 @@ document.ready(function () {
 		}
 	});
 
-	// fetch data about places
+	// fetch data about places.
 	$.post({
 		url: `${HOST}/api/v1/places_search`,
 		data: JSON.stringify({}),
